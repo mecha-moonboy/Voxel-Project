@@ -1,0 +1,10 @@
+^C:\USERS\ZANE\DESKTOP\VOXEL PROJECT\BUILD\JOLTPHYSICS\BUILD\CMAKEFILES\_CMAKELTOTEST-CXX\BIN\CMAKEFILES\E446458C5B60BA48A623CAA4B0610716\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Zane/Desktop/Voxel Project/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src" "-BC:/Users/Zane/Desktop/Voxel Project/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Zane/Desktop/Voxel Project/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/lto-test.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -10,6 +10,19 @@
 #include "Shader.h"      // Custom Shader class for handling GLSL shaders
 #include "Mesh.h"        // Custom Mesh class for handling OpenGL mesh rendering
 
+// Jolt physics headers
+#include "Jolt/Jolt.h"
+#include "Jolt/RegisterTypes.h"
+#include <Jolt/Core/Factory.h>
+#include <Jolt/Core/TempAllocator.h>
+#include <Jolt/Core/JobSystemThreadPool.h>
+#include <Jolt/Physics/PhysicsSettings.h>
+#include <Jolt/Physics/PhysicsSystem.h>
+#include <Jolt/Physics/Collision/Shape/BoxShape.h>
+#include <Jolt/Physics/Collision/Shape/StaticCompoundShape.h>
+#include <Jolt/Physics/Body/BodyCreationSettings.h>
+#include <Jolt/Physics/Body/BodyActivationListener.h>
+
 /**
  * Entry point of the application.
  * Initializes SDL, creates an OpenGL context, sets up shaders and a rotating 2D quad.

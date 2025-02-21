@@ -7,7 +7,8 @@
                 "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\include",
                 "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0",
                 "C:\\SDL2\\include",
-                "C:\\GLEW\\include"
+                "C:\\GLEW\\include",
+                "${workspaceFolder}/JoltPhysics"
             ],
             "defines": [
                 "_DEBUG",

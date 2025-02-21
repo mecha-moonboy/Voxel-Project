@@ -9,6 +9,9 @@ The telos here is to put aside flair and focus completely on the mechanical capa
 - Cube
 
 ## Planned Features:
+- Physics:
+    - Basic gameplay physics collision
+    - Physics materials (friction, bounciness, softness, etc.)
 - Rendering:
     - Color lightmaps
     - Transparent blocks

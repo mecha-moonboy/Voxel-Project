@@ -25,11 +25,13 @@ target_link_libraries(${PROJECT_NAME} PRIVATE ${GLEW_LIBRARY})
 find_package(OpenGL REQUIRED)
 target_link_libraries(${PROJECT_NAME} PRIVATE OpenGL::GL)
 
+# Header only GL Mathematics library
 include_directories("GLM")
-# Add GLM (header-only, so just include directory)
-# set(GLM_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/glm")  # For Option 2: GLM in project folder
-# set(GLM_INCLUDE_DIR "C:/GLM/glm")  # Uncomment for Option 1: GLM in external folder
-# include_directories(${GLM_INCLUDE_DIR})
+
+# Jolt Physics
+add_subdirectory(JoltPhysics/Build)  # Path to JoltPhysics folder
+include_directories(${CMAKE_SOURCE_DIR}/JoltPhysics)
+target_link_libraries(${PROJECT_NAME} PRIVATE Jolt)
 
 # Windows-specific (shell32.lib)
 target_link_libraries(${PROJECT_NAME} PRIVATE shell32)
