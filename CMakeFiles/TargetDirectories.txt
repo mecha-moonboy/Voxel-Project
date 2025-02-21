@@ -1,3 +1,0 @@
-C:/Users/Zane/Desktop/Voxel Project/CMakeFiles/VoxelEngine.dir
-C:/Users/Zane/Desktop/Voxel Project/CMakeFiles/ALL_BUILD.dir
-C:/Users/Zane/Desktop/Voxel Project/CMakeFiles/ZERO_CHECK.dir

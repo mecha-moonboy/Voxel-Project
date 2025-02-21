@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 include(FetchContent)
 
-project(VoxelEngine)
+project(KybusEngine)
 
 set(CMAKE_CXX_STANDARD 17)
 
