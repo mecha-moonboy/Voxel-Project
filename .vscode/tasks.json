@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Voxel Engine",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "cl main.cpp /I \"C:\\SDL2\\include\" /link /LIBPATH:\"C:\\SDL2\\lib\\x86\" SDL2.lib SDL2main.lib shell32.lib /SUBSYSTEM:CONSOLE && copy /Y \"C:\\SDL2\\lib\\x86\\SDL2.dll\" ."
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

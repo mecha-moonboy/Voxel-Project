@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/aa26c848190826342d977997689039a7/glm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/5896297f93706a0d59e565863e75b7f2/glm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/d099981d52db0a7e169a546d59333601/glm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/d099981d52db0a7e169a546d59333601/glm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/d099981d52db0a7e169a546d59333601/glm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/d099981d52db0a7e169a546d59333601/glm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/d099981d52db0a7e169a546d59333601/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/d099981d52db0a7e169a546d59333601/glm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/d099981d52db0a7e169a546d59333601/glm-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Zane/Desktop/Voxel Project/build/_deps/glm-subbuild/CMakeFiles/d099981d52db0a7e169a546d59333601/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}
