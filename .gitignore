@@ -1,0 +1,8 @@
+.vs
+.sln
+.vscode
+/.vscode
+.vcxproj
+.vcxproj.filters
+/build
+/CMakeFiles

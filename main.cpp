@@ -23,6 +23,8 @@
 #include <Jolt/Physics/Body/BodyCreationSettings.h>
 #include <Jolt/Physics/Body/BodyActivationListener.h>
 
+// using namespace Jolt;
+
 /**
  * Entry point of the application.
  * Initializes SDL, creates an OpenGL context, sets up shaders and a rotating 2D quad.
